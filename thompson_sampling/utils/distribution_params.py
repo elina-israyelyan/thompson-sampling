@@ -1,6 +1,6 @@
 import pandas as pd
 
-from model.base import BaseModel
+from thompson_sampling.model.base import BaseModel
 
 
 def get_dist_params(model: BaseModel = None, data: pd.DataFrame = None, exploration_time: int = 10):

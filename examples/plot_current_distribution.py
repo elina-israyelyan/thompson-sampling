@@ -2,7 +2,7 @@ import random
 
 import pandas as pd
 
-from model import *
+from thompson_sampling.model import *
 
 
 def model_beta_visualisation():

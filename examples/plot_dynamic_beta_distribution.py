@@ -3,9 +3,9 @@ import random
 import pandas as pd
 from scipy.stats import beta
 
-from model import *
-from utils.distribution_params import get_dist_params
-from visualisation.dynamic_plots import plot_dist_over_time
+from thompson_sampling.model import *
+from thompson_sampling.utils.distribution_params import get_dist_params
+from thompson_sampling.visualisation.dynamic_plots import plot_dist_over_time
 
 
 def model_beta_visualisation():
